@@ -9,7 +9,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 ">
     <div className="container-fluid text-center text-md-left ">
         <div className="row">
             <div className="col-md-6 mt-md-0 mt-3">
-                <h5 className="text-uppercase">Amasu Expresss</h5>
+                <h5 className="text-uppercase">Amasu Express</h5>
                 <p>Here is a place to reach your development goals.</p>
             </div>
 
