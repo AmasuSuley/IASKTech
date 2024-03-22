@@ -11,3 +11,116 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img{
+  
+  height: 30vh;
+}
+.container-fluid {
+  margin-top: 50px;
+}
+.corosel{
+  background-color: black;
+  height: 100vh;
+}
+.corosel img{
+  height: 100vh;
+}
+.service-div{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  
+  
+  
+}
+.div-out{
+  
+  width: 100%;
+}
+.service-div h1{
+  color:black;
+  
+}
+.service-div .corosel{
+  height: 60vh;
+}
+.service-div .corosel img{
+  height: 40vh;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+.nav-item{
+  font-size: 18px;
+  text-transform: uppercase;
+  
+  color: white;
+}
+.navbar-brand{
+  font-size: 80px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+#card{
+  width: 35rem;
+  height: 50vh;
+  background-color: black;
+  color: white;
+}
+
+.minContainer{
+  margin: 10px;
+}
+.minContainer .container{
+  
+  padding: 40px ;
+}
+.minContainer .container img{
+  height: 25vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+@media only screen  and (max-width:600px)
+{
+  #card{
+    width: 25rem;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+  }
+  .service-div .corosel{
+    height: 40vh;
+  }
+  .service-div .corosel img{
+    height: 25vh;
+  }
+  .service-div .corosel p{
+    font-size: 10px;
+  }
+  .corosel{
+    background-color: black;
+    height: 50vh;
+  }
+  .corosel img{
+    height: 50vh;
+  }
+  .corosel h3{
+    font-size: 10px;
+  }
+  .minContainer .container img{
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
